@@ -1,0 +1,29 @@
+html, body {
+    background-color: #0C4670;
+}
+
+.Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.tracksContainer {
+    margin-bottom: 50px;
+    
+}
+
+.tracksItems {
+    color: #F7C663;
+    border-bottom: solid 1px #F7C663;
+    padding: 10px 0;
+    cursor: pointer;
+    user-select: none;
+
+}
+
+:hover.tracksItems {
+    color: #00F794;
+}
